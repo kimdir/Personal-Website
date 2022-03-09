@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
 body {
-background: #3b95bf;
+background: linear-gradient(45deg, #3e3f40, #12161a);
 text-align: center;
 }
 
@@ -13,29 +14,75 @@ text-align: center;
 }
 
 h1 {
+  font-family: "Nanum Gothic";
   text-align: left;
-  font-family: "Calibri";
   font: 24px;
   color: #ffffff;
 }
-
+h2 {
+  font-family: "Nanum Gothic"
+  font: 24px;
+  text-align: center;
+}
 hr {
   height: 2px;
   color: #ff3819;
 }
 
 p {
-  font-family: "Calibri";
+  font-family: "Nanum Gothic";
   font: 12px;
   text-align: left;
   text-indent: 40px;
   color: #ffffff;
 }
 
-.circle {
-  width: 15rem;
+.card {
+  background: #eeeeee;
+  padding: 1rem;
+  border-radius: 15%;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  background: #222222;
+  transform: translateY(-15px);
+}
+
+.button {
+  width: 100%;
   height: 15rem;
-  background: linear-gradient(to right, #299e44, #0a5437);
-  border-radius: 50%;
-  box-shadow: 0 2rem 2rem #555555;
+  border-radius: 15%;
+  box-shadow: 0 2rem 2rem rgba(0,0,0,0.2);
+  box-shadow: 0.5rem 0.5rem 0.4rem rgba(0,0,0,0.2);
+  font-family: "Nanum Gothic";
+  font-size: 300%;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1 ease-in-out;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  font-weight: 800;
+}
+
+.professional {
+  background: linear-gradient(to right, #3ae6c7, #094979);
+
+}
+
+.academic {
+  background: linear-gradient(to right, #094979, #3d81ba);
+}
+
+.personal {
+  background: linear-gradient(to right, #3d81ba, #37ddff);
+}
+
+.frame {
+  border: solid 0px #ffffff;
 }
