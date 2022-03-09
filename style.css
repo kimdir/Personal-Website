@@ -1,0 +1,41 @@
+body {
+background: #3b95bf;
+text-align: center;
+}
+
+#main {
+  width: 1000;
+  height: 600;
+  background: #185673;
+  margin: 25px auto;
+  border: solid 2px #ff3819;
+  padding:10px;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Calibri";
+  font: 24px;
+  color: #ffffff;
+}
+
+hr {
+  height: 2px;
+  color: #ff3819;
+}
+
+p {
+  font-family: "Calibri";
+  font: 12px;
+  text-align: left;
+  text-indent: 40px;
+  color: #ffffff;
+}
+
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(to right, #299e44, #0a5437);
+  border-radius: 50%;
+  box-shadow: 0 2rem 2rem #555555;
+}
