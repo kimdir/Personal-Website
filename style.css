@@ -1,5 +1,13 @@
 @import url("https://use.typekit.net/emc3xrs.css");
 
+:root {
+  --main-black: #0B0014;
+  --main-red: #773344;
+  --main-green: #508484;
+  --main-blue: #CFD6EA;
+  --main-white: #E8EEF2;
+}
+
 body {
   background-image: url(https://img.freepik.com/free-vector/handmade-whte-paper-texture_125540-947.jpg?size=626&ext=jpg);
   background-repeat: no-repeat;
@@ -113,7 +121,7 @@ p {
 /* Test Section */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: var(--main-black);
   overflow: hidden;
 }
 
@@ -130,13 +138,13 @@ p {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: var(--main-red);
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: var(--main-blue);
   color: white;
 }
 
